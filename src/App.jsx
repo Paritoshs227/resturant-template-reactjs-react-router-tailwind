@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import BASEURL from './baseurl';
 import HomePage from './pages/HomePage'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
@@ -11,11 +12,11 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/about' element={<AboutPage />} />
-        <Route path='/service' element={<ServicesPage/>} />
-        <Route path='/menu' element={<MenuPage />} />
-        <Route path='/contact' element={<ContactPage/>} />
+        <Route path={`${BASEURL}/`} element={<HomePage />} />
+        <Route path={`${BASEURL}/about`} element={<AboutPage />} />
+        <Route path={`${BASEURL}/service`} element={<ServicesPage/>} />
+        <Route path={`${BASEURL}/menu`} element={<MenuPage />} />
+        <Route path={`${BASEURL}/contact`} element={<ContactPage/>} />
       </Routes>
       <Footer />
     </>

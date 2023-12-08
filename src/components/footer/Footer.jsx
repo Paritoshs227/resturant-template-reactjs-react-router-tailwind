@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import BASEURL from '../../baseurl';
 const Footer = () => {
   return (
 
@@ -7,12 +8,10 @@ const Footer = () => {
         <div className="row w-full px-5 flex flex-col md:flex-row ">
           <div className="col px-3 mt-10 w-full md:w-1/3">
             <h4 className="font-bold text-3xl mt-4 text-yellow-500 ">Reservation</h4>
-            <Link to="/about" className="text-white block mb-3 mt-5">About US</Link>
-            <Link to="/contact" className="text-white block mb-3">Contact Us</Link>
-            <Link to="/service" className="text-white block mb-3">Service</Link>
-            <Link to="/menu" className="text-white block mb-3">Menu</Link>
-            <Link to="" className="text-white block mb-3">Privacy Policy</Link>
-            <Link to="" className="text-white block mb-3">Terms and Condition</Link>
+            <Link to={`${BASEURL}/about`} className="text-white block mb-3 mt-5">About US</Link>
+            <Link to={`${BASEURL}/contact`} className="text-white block mb-3">Contact Us</Link>
+            <Link to={`${BASEURL}/service`} className="text-white block mb-3">Service</Link>
+            <Link to={`${BASEURL}/menu`} className="text-white block mb-3">Menu</Link>     
           </div>
           <div className="col px-3 mt-10 w-full md:w-1/3">
             <h4 className="font-bold text-3xl mt-4 text-yellow-500 ">Contact</h4>
