@@ -1,4 +1,4 @@
-
+import BASEURL from '../baseurl';
 const MenuPage = () => {
     return (
         <>
@@ -20,7 +20,7 @@ const MenuPage = () => {
                                 <li className="">
                                     <a href="#" className=" flex pb-5 border-b-4 border-yellow-500">
                                         <div className="flex px-3 items-center">
-                                            <img className="w-2/5" src="/assets/img/icons8-coffee-50.png" alt="" />
+                                            <img className="w-2/5" src={`${BASEURL}/assets/img/icons8-coffee-50.png`} alt="" />
                                             <div className="ps-4 leading-4 text-left">
                                                 <p>Popular</p>
                                                 <h4 className="font-bold text-md ">Breakfast</h4>
@@ -31,7 +31,7 @@ const MenuPage = () => {
                                 <li className="">
                                     <a href="#" className=" flex pb-5 ">
                                         <div className="flex px-3 items-center">
-                                            <img className="w-2/5" src="/assets/img/icons8-coffee-50.png" alt="" />
+                                            <img className="w-2/5" src={`${BASEURL}/assets/img/icons8-coffee-50.png`} alt="" />
                                             <div className="ps-4 leading-4 text-left">
                                                 <p>Popular</p>
                                                 <h4 className="font-bold text-md ">Breakfast</h4>
@@ -42,7 +42,7 @@ const MenuPage = () => {
                                 <li className="">
                                     <a href="#" className=" flex pb-5 ">
                                         <div className="flex px-3 items-center">
-                                            <img className="w-2/5" src="/assets/img/icons8-coffee-50.png" alt="" />
+                                            <img className="w-2/5" src={`${BASEURL}/assets/img/icons8-coffee-50.png`} alt="" />
                                             <div className="ps-4 leading-4 text-left">
                                                 <p>Popular</p>
                                                 <h4 className="font-bold text-md ">Breakfast</h4>
@@ -55,7 +55,7 @@ const MenuPage = () => {
                                 <div className=" w-full flex flex-col lg:flex-row mt-5 flex-wrap">
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-1.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-1.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -67,7 +67,7 @@ const MenuPage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-2.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-2.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -79,7 +79,7 @@ const MenuPage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-3.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-3.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -91,7 +91,7 @@ const MenuPage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-4.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-4.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -103,7 +103,7 @@ const MenuPage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-5.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-5.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -115,7 +115,7 @@ const MenuPage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-6.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-6.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -127,7 +127,7 @@ const MenuPage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-7.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-7.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -139,7 +139,7 @@ const MenuPage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-8.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-8.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span

@@ -1,4 +1,4 @@
-
+import BASEURL from '../baseurl';
 const HomePage = () => {
     return (
         <>
@@ -19,7 +19,7 @@ const HomePage = () => {
                             TABLE</button>
                     </div>
                     <div className="right w-full overflow-hidden lg:w-1/2">
-                        <img src="/assets/img/hero.png" className="max-w-full h-auto  pizzaSpin" />
+                        <img src={`${BASEURL}/assets/img/hero.png`} className="max-w-full h-auto  pizzaSpin" />
                     </div>
                 </section>
             </div>
@@ -28,7 +28,7 @@ const HomePage = () => {
                     <section className="flex flex-wrap px-3 pt-12 pb-8 ">
                         <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                             <div className="py-8 px-6 bg-white customBoxShadow">
-                                <img className="w-1/5" src="/assets/img/icons8-chef-50.png" alt="" />
+                                <img className="w-1/5" src={`${BASEURL}/assets/img/icons8-chef-50.png`} alt="" />
                                 <h4 className="font-bold text-xl mt-4">Master Chefs</h4>
                                 <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                     amet diam</p>
@@ -36,7 +36,7 @@ const HomePage = () => {
                         </div>
                         <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                             <div className="py-8 px-6 bg-white customBoxShadow">
-                                <img className="w-1/5" src="/assets/img/icons8-utensils-50.png" alt="" />
+                                <img className="w-1/5" src={`${BASEURL}/assets/img/icons8-utensils-50.png`} alt="" />
                                 <h4 className="font-bold text-xl mt-4">Quality Food</h4>
                                 <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                     amet diam</p>
@@ -44,7 +44,7 @@ const HomePage = () => {
                         </div>
                         <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                             <div className="py-8 px-6 bg-white customBoxShadow">
-                                <img className="w-1/5" src="/assets/img/icons8-cart-50.png" alt="" />
+                                <img className="w-1/5" src={`${BASEURL}/assets/img/icons8-cart-50.png`} alt="" />
                                 <h4 className="font-bold text-xl mt-4">Online Order</h4>
                                 <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                     amet diam</p>
@@ -52,7 +52,7 @@ const HomePage = () => {
                         </div>
                         <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                             <div className="py-8 px-6 bg-white customBoxShadow">
-                                <img className="w-1/5" src="/assets/img/icons8-headphone-64.png" alt="" />
+                                <img className="w-1/5" src={`${BASEURL}/assets/img/icons8-headphone-64.png`} alt="" />
                                 <h4 className="font-bold text-xl mt-4">24/7 Service</h4>
                                 <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                     amet diam</p>
@@ -62,16 +62,16 @@ const HomePage = () => {
                     <section className="px-3 py-5 w-full flex flex-col lg:flex-row lg:items-center">
                         <div className="px-3 mt-10 w-full lg:w-1/2">
                             <div className="flex w-full flex-wrap">
-                                <div className="w-1/2 px-2 mt-3"><img className="w-full" src="/assets/img/about-1.jpg" alt="" width="286" height="286" /></div>
-                                <div className="w-1/2 px-2 mt-3"><img className="w-3/4 mt-[25%]" src="/assets/img/about-2.jpg" alt="" /></div>
-                                <div className="w-1/2 px-2 mt-3 "><img className="w-3/4 ml-[25%]" src="/assets/img/about-3.jpg" alt="" /></div>
-                                <div className="w-1/2 px-2 mt-3"><img className="w-full" src="/assets/img/about-4.jpg" alt="" /></div>
+                                <div className="w-1/2 px-2 mt-3"><img className="w-full" src={`${BASEURL}/assets/img/about-1.jpg`} alt="" width="286" height="286" /></div>
+                                <div className="w-1/2 px-2 mt-3"><img className="w-3/4 mt-[25%]" src={`${BASEURL}/assets/img/about-2.jpg`} alt="" /></div>
+                                <div className="w-1/2 px-2 mt-3 "><img className="w-3/4 ml-[25%]" src={`${BASEURL}/assets/img/about-3.jpg`} alt="" /></div>
+                                <div className="w-1/2 px-2 mt-3"><img className="w-full" src={`${BASEURL}/assets/img/about-4.jpg`} alt="" /></div>
                             </div>
                         </div>
                         <div className="px-3 mt-10 w-full lg:w-1/2">
                             <h4 className="font-bold text-xl mt-4 text-yellow-500">About Us</h4>
                             <h2 className="font-bold text-2xl lg:text-4xl inline-flex">Welcome to &nbsp; <img className="w-1/12"
-                                src="/assets/img/icons8-utensils-50.png" alt="" /> &nbsp; Resturant</h2>
+                                src={`${BASEURL}/assets/img/icons8-utensils-50.png`} alt="" /> &nbsp; Resturant</h2>
                             <p className="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, magni provident repellat
                                 odit totam maiores, nam dolore porro accusamus laborum esse. Sapiente, nulla?</p>
                             <p className="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, magni provident
@@ -112,7 +112,7 @@ const HomePage = () => {
                                 <li className="">
                                     <a href="#" className=" flex pb-5 border-b-4 border-yellow-500">
                                         <div className="flex px-3 items-center">
-                                            <img className="w-2/5" src="/assets/img/icons8-coffee-50.png" alt="" />
+                                            <img className="w-2/5" src={`${BASEURL}/assets/img/icons8-coffee-50.png`} alt="" />
                                             <div className="ps-4 leading-4 text-left">
                                                 <p>Popular</p>
                                                 <h4 className="font-bold text-md ">Breakfast</h4>
@@ -123,7 +123,7 @@ const HomePage = () => {
                                 <li className="">
                                     <a href="#" className=" flex pb-5 ">
                                         <div className="flex px-3 items-center">
-                                            <img className="w-2/5" src="/assets/img/icons8-coffee-50.png" alt="" />
+                                            <img className="w-2/5" src={`${BASEURL}/assets/img/icons8-coffee-50.png`} alt="" />
                                             <div className="ps-4 leading-4 text-left">
                                                 <p>Popular</p>
                                                 <h4 className="font-bold text-md ">Breakfast</h4>
@@ -134,7 +134,7 @@ const HomePage = () => {
                                 <li className="">
                                     <a href="#" className=" flex pb-5 ">
                                         <div className="flex px-3 items-center">
-                                            <img className="w-2/5" src="/assets/img/icons8-coffee-50.png" alt="" />
+                                            <img className="w-2/5" src={`${BASEURL}/assets/img/icons8-coffee-50.png`} alt="" />
                                             <div className="ps-4 leading-4 text-left">
                                                 <p>Popular</p>
                                                 <h4 className="font-bold text-md ">Breakfast</h4>
@@ -147,7 +147,7 @@ const HomePage = () => {
                                 <div className=" w-full flex flex-col lg:flex-row mt-5 flex-wrap">
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-1.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-1.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -159,7 +159,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-2.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-2.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -171,7 +171,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-3.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-3.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -183,7 +183,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-4.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-4.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -195,7 +195,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-5.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-5.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -207,7 +207,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-6.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-6.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -219,7 +219,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-7.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-7.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -231,7 +231,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="px-3 w-full mt-5 lg:w-1/2">
                                         <div className=" flex items-center w-full">
-                                            <img src="/assets/img/menu-8.jpg" alt="" className="w-20" />
+                                            <img src={`${BASEURL}/assets/img/menu-8.jpg`} alt="" className="w-20" />
                                             <div className=" flex flex-col text-start  ps-5 w-full">
                                                 <h5 className=" flex justify-between border-b">
                                                     <span className="text-lg font-bold">Chicken Burger</span><span
@@ -311,28 +311,28 @@ const HomePage = () => {
                         <div className="flex flex-wrap px-3 pt-12 pb-8 flex-col md:flex-row">
                             <div className="px-3 w-full md:w-1/2 lg:w-1/4">
                                 <div className="bg-white  customBoxShadow p-7 text-center mt-16">
-                                    <img className="w-full rounded-full" src="/assets/img/team-1.jpg" alt="" />
+                                    <img className="w-full rounded-full" src={`${BASEURL}/assets/img/team-1.jpg`} alt="" />
                                     <h4 className="font-bold text-xl mt-4">Full Name</h4>
                                     <small className="text-slate-500">Desigination</small>
                                 </div>
                             </div>
                             <div className="px-3 w-full md:w-1/2 lg:w-1/4">
                                 <div className="bg-white  customBoxShadow p-7 text-center mt-16">
-                                    <img className="w-full rounded-full" src="/assets/img/team-2.jpg" alt="" />
+                                    <img className="w-full rounded-full" src={`${BASEURL}/assets/img/team-2.jpg`} alt="" />
                                     <h4 className="font-bold text-xl mt-4">Full Name</h4>
                                     <small className="text-slate-500">Desigination</small>
                                 </div>
                             </div>
                             <div className="px-3 w-full md:w-1/2 lg:w-1/4">
                                 <div className="bg-white  customBoxShadow p-7 text-center mt-16">
-                                    <img className="w-full rounded-full" src="/assets/img/team-3.jpg" alt="" />
+                                    <img className="w-full rounded-full" src={`${BASEURL}/assets/img/team-3.jpg`} alt="" />
                                     <h4 className="font-bold text-xl mt-4">Full Name</h4>
                                     <small className="text-slate-500">Desigination</small>
                                 </div>
                             </div>
                             <div className="px-3 w-full md:w-1/2 lg:w-1/4">
                                 <div className="bg-white  customBoxShadow p-7 text-center mt-16">
-                                    <img className="w-full rounded-full" src="/assets/img/team-4.jpg" alt="" />
+                                    <img className="w-full rounded-full" src={`${BASEURL}/assets/img/team-4.jpg`} alt="" />
                                     <h4 className="font-bold text-xl mt-4">Full Name</h4>
                                     <small className="text-slate-500">Desigination</small>
                                 </div>
