@@ -18,7 +18,7 @@ const ServicesPage = () => {
                         <div className="flex flex-wrap mt-10">
                             <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                                 <div className="py-8 px-6 bg-white customBoxShadow">
-                                    <img className="w-1/5" src="../src/assets/img/icons8-chef-50.png" alt="" />
+                                    <img className="w-1/5" src="/assets/img/icons8-chef-50.png" alt="" />
                                     <h4 className="font-bold text-xl mt-4">Master Chefs</h4>
                                     <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                         amet diam</p>
@@ -26,7 +26,7 @@ const ServicesPage = () => {
                             </div>
                             <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                                 <div className="py-8 px-6 bg-white customBoxShadow">
-                                    <img className="w-1/5" src="../src/assets/img/icons8-utensils-50.png" alt="" />
+                                    <img className="w-1/5" src="/assets/img/icons8-utensils-50.png" alt="" />
                                     <h4 className="font-bold text-xl mt-4">Quality Food</h4>
                                     <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                         amet diam</p>
@@ -34,7 +34,7 @@ const ServicesPage = () => {
                             </div>
                             <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                                 <div className="py-8 px-6 bg-white customBoxShadow">
-                                    <img className="w-1/5" src="../src/assets/img/icons8-cart-50.png" alt="" />
+                                    <img className="w-1/5" src="/assets/img/icons8-cart-50.png" alt="" />
                                     <h4 className="font-bold text-xl mt-4">Online Order</h4>
                                     <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                         amet diam</p>
@@ -42,7 +42,7 @@ const ServicesPage = () => {
                             </div>
                             <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                                 <div className="py-8 px-6 bg-white customBoxShadow">
-                                    <img className="w-1/5" src="../src/assets/img/icons8-headphone-64.png" alt="" />
+                                    <img className="w-1/5" src="/assets/img/icons8-headphone-64.png" alt="" />
                                     <h4 className="font-bold text-xl mt-4">24/7 Service</h4>
                                     <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                         amet diam</p>
@@ -50,7 +50,7 @@ const ServicesPage = () => {
                             </div>
                             <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                                 <div className="py-8 px-6 bg-white customBoxShadow">
-                                    <img className="w-1/5" src="../src/assets/img/icons8-chef-50.png" alt="" />
+                                    <img className="w-1/5" src="/assets/img/icons8-chef-50.png" alt="" />
                                     <h4 className="font-bold text-xl mt-4">Master Chefs</h4>
                                     <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                         amet diam</p>
@@ -58,7 +58,7 @@ const ServicesPage = () => {
                             </div>
                             <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                                 <div className="py-8 px-6 bg-white customBoxShadow">
-                                    <img className="w-1/5" src="../src/assets/img/icons8-utensils-50.png" alt="" />
+                                    <img className="w-1/5" src="/assets/img/icons8-utensils-50.png" alt="" />
                                     <h4 className="font-bold text-xl mt-4">Quality Food</h4>
                                     <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                         amet diam</p>
@@ -66,7 +66,7 @@ const ServicesPage = () => {
                             </div>
                             <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                                 <div className="py-8 px-6 bg-white customBoxShadow">
-                                    <img className="w-1/5" src="../src/assets/img/icons8-cart-50.png" alt="" />
+                                    <img className="w-1/5" src="/assets/img/icons8-cart-50.png" alt="" />
                                     <h4 className="font-bold text-xl mt-4">Online Order</h4>
                                     <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                         amet diam</p>
@@ -74,7 +74,7 @@ const ServicesPage = () => {
                             </div>
                             <div className="px-3 mb-10 w-full md:w-1/2 lg:w-1/4 ">
                                 <div className="py-8 px-6 bg-white customBoxShadow">
-                                    <img className="w-1/5" src="../src/assets/img/icons8-headphone-64.png" alt="" />
+                                    <img className="w-1/5" src="/assets/img/icons8-headphone-64.png" alt="" />
                                     <h4 className="font-bold text-xl mt-4">24/7 Service</h4>
                                     <p className="mt-4 text-gray-600 font-semibold">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                                         amet diam</p>

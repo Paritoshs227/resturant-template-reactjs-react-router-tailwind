@@ -13,16 +13,16 @@ const AboutPage = () => {
                     <section className="px-3 py-5 w-full flex flex-col lg:flex-row lg:items-center">
                         <div className="px-3 mt-10 w-full lg:w-1/2">
                             <div className="flex w-full flex-wrap">
-                                <div className="w-1/2 px-2 mt-3"><img className="w-full" src="../src/assets/img/about-1.jpg" alt="" width="286" height="286" /></div>
-                                <div className="w-1/2 px-2 mt-3"><img className="w-3/4 mt-[25%]" src="../src/assets/img/about-2.jpg" alt="" /></div>
-                                <div className="w-1/2 px-2 mt-3 "><img className="w-3/4 ml-[25%]" src="../src/assets/img/about-3.jpg" alt="" /></div>
-                                <div className="w-1/2 px-2 mt-3"><img className="w-full" src="../src/assets/img/about-4.jpg" alt="" /></div>
+                                <div className="w-1/2 px-2 mt-3"><img className="w-full" src="/assets/img/about-1.jpg" alt="" width="286" height="286" /></div>
+                                <div className="w-1/2 px-2 mt-3"><img className="w-3/4 mt-[25%]" src="/assets/img/about-2.jpg" alt="" /></div>
+                                <div className="w-1/2 px-2 mt-3 "><img className="w-3/4 ml-[25%]" src="/assets/img/about-3.jpg" alt="" /></div>
+                                <div className="w-1/2 px-2 mt-3"><img className="w-full" src="/assets/img/about-4.jpg" alt="" /></div>
                             </div>
                         </div>
                         <div className="px-3 mt-10 w-full lg:w-1/2">
                             <h4 className="font-bold text-xl mt-4 text-yellow-500">About Us</h4>
                             <h2 className="font-bold text-2xl lg:text-4xl inline-flex">Welcome to &nbsp; <img className="w-1/12"
-                                src="../src/assets/img/icons8-utensils-50.png" alt="" /> &nbsp; Resturant</h2>
+                                src="/assets/img/icons8-utensils-50.png" alt="" /> &nbsp; Resturant</h2>
                             <p className="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, magni provident repellat
                                 odit totam maiores, nam dolore porro accusamus laborum esse. Sapiente, nulla?</p>
                             <p className="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, magni provident
@@ -61,28 +61,28 @@ const AboutPage = () => {
                         <div className="flex flex-wrap px-3 pt-12 pb-8 flex-col md:flex-row">
                             <div className="px-3 w-full md:w-1/2 lg:w-1/4">
                                 <div className="bg-white  customBoxShadow p-7 text-center mt-16">
-                                    <img className="w-full rounded-full" src="../src/assets/img/team-1.jpg" alt="" />
+                                    <img className="w-full rounded-full" src="/assets/img/team-1.jpg" alt="" />
                                     <h4 className="font-bold text-xl mt-4">Full Name</h4>
                                     <small className="text-slate-500">Desigination</small>
                                 </div>
                             </div>
                             <div className="px-3 w-full md:w-1/2 lg:w-1/4">
                                 <div className="bg-white  customBoxShadow p-7 text-center mt-16">
-                                    <img className="w-full rounded-full" src="../src/assets/img/team-2.jpg" alt="" />
+                                    <img className="w-full rounded-full" src="/assets/img/team-2.jpg" alt="" />
                                     <h4 className="font-bold text-xl mt-4">Full Name</h4>
                                     <small className="text-slate-500">Desigination</small>
                                 </div>
                             </div>
                             <div className="px-3 w-full md:w-1/2 lg:w-1/4">
                                 <div className="bg-white  customBoxShadow p-7 text-center mt-16">
-                                    <img className="w-full rounded-full" src="../src/assets/img/team-3.jpg" alt="" />
+                                    <img className="w-full rounded-full" src="/assets/img/team-3.jpg" alt="" />
                                     <h4 className="font-bold text-xl mt-4">Full Name</h4>
                                     <small className="text-slate-500">Desigination</small>
                                 </div>
                             </div>
                             <div className="px-3 w-full md:w-1/2 lg:w-1/4">
                                 <div className="bg-white  customBoxShadow p-7 text-center mt-16">
-                                    <img className="w-full rounded-full" src="../src/assets/img/team-4.jpg" alt="" />
+                                    <img className="w-full rounded-full" src="/assets/img/team-4.jpg" alt="" />
                                     <h4 className="font-bold text-xl mt-4">Full Name</h4>
                                     <small className="text-slate-500">Desigination</small>
                                 </div>

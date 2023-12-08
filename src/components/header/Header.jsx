@@ -4,7 +4,7 @@ const Header = () => {
     <header className="absolute w-full bg-transparent hidden lg:block">
     <nav className="flex container mx-auto w-full pt-5">
       <Link to="/" className="logocontainer flex items-center">
-        <img src="../src/assets/img/icons8-utensils-50.png" alt="icons8-utensils-50" className="w-10" width="592" height="592"/>
+        <img src="/assets/img/icons8-utensils-50.png" alt="icons8-utensils-50" className="w-10" width="592" height="592"/>
         <div className="text-yellow-500 text-4xl font-bold">&nbsp; Resturant</div>
       </Link>
       <div className="navbar grow flex justify-end items-center">
