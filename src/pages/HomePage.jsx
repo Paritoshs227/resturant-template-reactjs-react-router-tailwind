@@ -18,7 +18,7 @@ const HomePage = () => {
                             A
                             TABLE</button>
                     </div>
-                    <div className="right w-full overflow-hidden lg:w-1/2">
+                    <div className="right w-full overflow-hidden lg:w-1/2 relative z-0">
                         <img src={`${BASEURL}/assets/img/hero.png`} className="max-w-full h-auto  pizzaSpin" />
                     </div>
                 </section>
